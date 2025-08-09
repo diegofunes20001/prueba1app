@@ -1,0 +1,73 @@
+.container {
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.puntajeFinal {
+  margin-bottom: 2rem;
+}
+
+.puntajeFinal h2 {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.puntaje {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #0070f3;
+  margin-bottom: 1rem;
+}
+
+.estadisticas {
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+  padding: 1.5rem 0;
+  margin: 2rem 0;
+}
+
+.estadistica {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.estadistica:last-child {
+  margin-bottom: 0;
+}
+
+.etiqueta {
+  color: #666;
+}
+
+.valor {
+  font-weight: bold;
+  color: #333;
+}
+
+.mensaje {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.acciones {
+  margin-top: 2rem;
+}
+
+.reiniciarButton {
+  background: #28a745;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+.reiniciarButton:hover {
+  background: #218838;
+}
